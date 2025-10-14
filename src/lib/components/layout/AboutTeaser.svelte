@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Nicolai Ouporov",
+		role: "CEO & Co-Founder",
+		image: "/generated/image-a-professional-founder-stands-in-a-moder.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"Training agents at Columbia, I saw the same problem everywhere: researchers spending months building environments that still missed real-world complexity. We realized the bottleneck wasn't the models—it was the infrastructure to create diverse, reliable training grounds at scale."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
